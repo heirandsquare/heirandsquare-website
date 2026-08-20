@@ -34,9 +34,10 @@ body {
   align-items: center;
 }
 
-.logo-img {
-  height: 72px;
+.logo-icon {
+  height: 42px;
   width: auto;
+  display: block;
 }
 
 .nav a {
@@ -52,10 +53,19 @@ body {
 }
 
 /* ===== Hero ===== */
+
 .hero {
   background: #f8f6f3;
-  padding: 90px 0 100px;
+  padding: 70px 0 90px;
   text-align: center;
+}
+
+.hero-logo {
+  max-width: 380px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 32px;
+  display: block;
 }
 
 .hero h1 {
